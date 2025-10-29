@@ -1,0 +1,38 @@
+# Ignore compiled output and build artifacts
+*.o
+*.lo
+*.la
+*.so
+*.a
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Ignore node_modules directory for JavaScript projects
+node_modules/
+
+# Ignore sensitive files (example)
+.env
+config.local.js
